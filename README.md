@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+SUMMARY - A hub for the top 20 video games and what players think.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tech Usage
 
-## Available Scripts
+**CSS Framework:**
 
-In the project directory, you can run:
+**Stack:** MongoDB, Express, NodeJS
 
-### `npm start`
+**Service-Side Rendering:** JSX
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Node Modules**:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Routes
 
-### `npm test`
+| Method | Path | Purpose |
+| ------ | ------------------------------------- | ----------------------------- |
+| GET | `/` | The home page |
+| GET | `/videogames` | Index page listing all video games |
+| GET | `/videogames/new` | New form for a video game |
+| POST | `/videogames` | Create a new video game |
+| GET | `/videogames/:id` | Show one video game in detail (Associated reviews, new review form, delete review button) |
+| GET | `/videogames/:id/edit` | Edit form for a video game |
+| PUT | `/videogames/:id` | Make changes to existing video game |
+| DELETE | `/videogames/:id` | Delete a video game |
+| POST | `/videogames/:id/review` | Add review to a video game |
+| DELETE | `/videogames/:id/review/:reviewId` | Delete a review |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Database
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**videogames**
+| Field | Type |
+| ---------- | ------------ |
+| _id | Object ID |
+| gameTitle | String |
+| pic | String |
+| rating | Number |
+| releaseDate | String |

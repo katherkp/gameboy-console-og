@@ -12,7 +12,28 @@ router.get('/', (req, res) => {
         })
 })
 
-// post
+// post, needed?
+
+router.post('/', (req, res) => {
+    if (req.body.pic === '') { req.body.pic = undefined}
+    if (req.body.gameTitle === '') { req.body.gameTitle = undefined }
+    db.Videogame.create(req.body)
+        .then(() => {
+            res.redirect('/videogames')
+        })
+        .catch(err => {
+            if (err && err.name == 'ValidationError') {
+                let message = 'Validation Error: '
+                for (var field in err.errors) {
+                    message += `${field} was ${err.errors[field].value}. ${err.errors[field].message}`
+                }
+                res.render('videogames/new', { message })
+            }
+            else {
+                res.render('error404')
+            }
+        })
+})
 
 router.get('/new', (req, res) => {
     res.render('videogames/new')
