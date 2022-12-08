@@ -39,16 +39,11 @@ function App() {
         </Container>
       </Navbar>
     </>
-  );
-}
-
-export default ColorSchemesExample;
+ 
+;
      </div>
   );
 }
-
-
-
 
 
 
