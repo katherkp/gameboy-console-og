@@ -92,7 +92,7 @@ router.post('/:id/review', (req, res) => {
         })
 })
 
-router.delete('/:id/revide/:reviewId', (req, res) => {
+router.delete('/:id/review/:reviewId', (req, res) => {
     db.Review.findByIdAndDelete(req.params.reviewId)
         .then(() => {
             console.log('Success')
