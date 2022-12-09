@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Home = () => {
     return (
-        <Def>
+        <div>
             <main>
                 <h1>Video Game Review Here</h1>
                 <div>
@@ -12,8 +12,8 @@ export const Home = () => {
                 </a>
                 </div>
             </main>
-        </Def>
+        </div>
     )
 }
 
-module.exports = home
+export default Home
