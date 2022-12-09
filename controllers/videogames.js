@@ -1,6 +1,7 @@
 const router = require('express').Router()
 const db = require('../models')
 
+// get to view a specific game
 router.get('/', (req, res) => {
     db.Videogame.find()
         .then((videogame) => {
@@ -12,8 +13,7 @@ router.get('/', (req, res) => {
         })
 })
 
-// post, needed?
-
+//post to add a new video game
 router.post('/', (req, res) => {
     if (req.body.pic === '') { req.body.pic = undefined}
     if (req.body.gameTitle === '') { req.body.gameTitle = undefined }
@@ -92,7 +92,7 @@ router.post('/:id/review', (req, res) => {
         })
 })
 
-router.delete('/:id/revide/:reviewId', (req, res) => {
+router.delete('/:id/review/:reviewId', (req, res) => {
     db.Review.findByIdAndDelete(req.params.reviewId)
         .then(() => {
             console.log('Success')
