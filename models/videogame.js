@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 const { Schema } = mongoose
 
 const videogameSchema = new mongoose.Schema({
-    id: { type: Number, required: true },
+    _id: { type: Number, required: true },
     gameTitle: { type: String, required: true },
     description: { type: String, default: 'Nothing Yet!'},
     imageURL: { type: String, default: 'http://placekitten.com/200/300' },
