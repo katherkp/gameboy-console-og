@@ -1,0 +1,139 @@
+        {
+            "_id": 1,
+            "gameTitle": "Core Keeper",
+            "description": "Core Keeper is a top-down sandbox game based around survival and crafting mechanics similar to games such as Minecraft and Terraria. It can be played single-player or cooperatively with up to 8 players. Players also have the ability to host a server which anyone can join at any time up to a maximum of 8 players.",
+            "imageURL": "/gamedata/gameimgs/Core Keeper.png",
+            "releaseDate": "March 8, 2021" 
+        },
+        {   "_id": 2,
+            "gameTitle": "Pokemon Legends: Arceus",
+            "description": "Pokémon Legends: Arceus is an action role-playing game that preserves the core gameplay of past entries in the mainline series. The player is able to roam freely across the game map, div_ided into five large areas of indiv_idual biomes.",
+            "imageURL": "/gamedata/gameimgs/Arceus.png",
+            "releaseDate": "January 28, 2022" 
+        },
+        {
+            "_id": "3",
+            "gameTitle": "Uncharted: Legacy of Thieves",
+            "description": "Several years after his last adventure, retired fortune hunter Nathan Drake, is forced back into the world of thieves. Fate comes calling when Sam, Drake's presumed dead brother, resurfaces seeking his help to save his own life and offering an adventure Drake can't resist. Winner of over 150 Game of the Year awards.",
+            "imageURL": "/gamedata/gameimgs/Uncharted.png",
+            "releaseDate": "October 19, 2022" 
+        },
+        {
+            "_id": "4",
+            "gameTitle": "Strange Horticulture",
+            "description": "Strange Horticulture is an occult puzzle game in which you play as the proprietor of a local plant store. Find and _identify new plants, pet your cat, speak to a coven, or join a cult. Use your growing collection to influence the story and unravel Undermere's dark mysteries.",
+            "imageURL": "/gamedata/gameimgs/Strange Horticulture.png",
+            "releaseDate": "July 28, 2022" 
+        },
+        {
+            "_id": "5",
+            "gameTitle": "Rainbow 6 Extraction",
+            "description": "Rainbow Six® Extraction is a tactical 1-3 player co-op PvE FPS where you'll unite the elite Operators from Rainbow Six® Siege against a deadly alien threat known as the Archaens.",
+            "imageURL": "/gamedata/gameimgs/Rainbow 6.png",
+            "releaseDate": "January 20, 2022" 
+        },
+        {
+            "_id": "6",
+            "gameTitle": "Nobody Saves the World",
+            "description": "Nobody Saves the World is an action role-playing dungeon crawling v_ideo game developed and published by DrinkBox Studios. The game was released for Microsoft Windows, Xbox One and Xbox Series X/S in January 2022, which was followed by ports on Nintendo Switch, PlayStation 4 and PlayStation 5 in April 2022.",
+            "imageURL": "/gamedata/gameimgs/nobody saves the world.png",
+            "releaseDate": "January 18, 2022" 
+        },
+        {
+            "_id": "7",
+            "gameTitle": "Elden Ring",
+            "description": "Elden Ring is an action role-playing game played in a third person perspective, with gameplay focusing on combat and exploration. It features elements similar to those found in other games developed by FromSoftware, such as the Dark Souls series, Bloodborne, and Sekiro: Shadows Die Twice.",
+            "imageURL": "/gamedata/gameimgs/elden-ring",
+            "releaseDate": "February 25, 2022" 
+        },
+        {
+            "_id": "8",
+            "gameTitle": "Horizon Forb_idden West",
+            "description": "Horizon Forb_idden West is an action role-playing game played from a third-person perspective. The player controls Aloy, a hunter in a world populated by dangerous, animalistic machines.",
+            "imageURL": "/gamedata/gameimgs/",
+            "releaseDate": "February 18, 2022" 
+        },
+        {
+            "_id": "9",
+            "gameTitle": "Total War: Warhammer III",
+            "description": "Gameplay. Like its predecessors, Total War: Warhammer III features turn-based strategy and real-time tactics gameplay similar to other games in the Total War series. In the campaign, players move armies around the map and manage settlements in a turn-based manner.",
+            "imageURL": "/gamedata/gameimgs/total war.png",
+            "releaseDate": "February 17, 2022" 
+        },
+        {
+            "_id": "10",
+            "gameTitle": "Sifu",
+            "description": "Sifu is a stylish yet gritty beat-em-up, featuring visceral hand-to-hand combat in a contemporary urban setting. From Sloclap, creators of acclaimed PS4 fighting game Absolver, Sifu follows a young kung fu student on a path of revenge, hunting for the murderers of his family.",
+            "imageURL": "/gamedata/gameimgs/sifu.png",
+            "releaseDate": "February 8, 2022" 
+        },
+        {
+            "_id": "11",
+            "gameTitle": "OlliOlli World",
+            "description": "OlliOlli World is a bold new skateboarding action-platformer that's bursting with personality. Flip and flow through the viv_id and vibrant world of Radlandia, meeting colorful characters as you grind, trick, and air your way to discover the mystical skate gods on your quest for Gnarvana.",
+            "imageURL": "/gamedata/gameimgs/olli.png",
+            "releaseDate": "February 7, 2022" 
+        },
+        {
+            "_id": "12",
+            "gameTitle": "TUNIC",
+            "description": "Stranded in a ruined land, and armed with only your own curiosity, you will confront colossal beasts, collect strange and powerful items, and unravel long-lost secrets. Stories say that a great treasure is h_idden somewhere in this land.",
+            "imageURL": "/gamedata/gameimgs/tunic.png",
+            "releaseDate": "March 16, 2022" 
+        },
+        {
+            "_id": "13",
+            "gameTitle": "God of War: Ragnarok",
+            "description": "Atreus seeks knowledge to help him understand the prophecy of “Loki” and establish his role in Ragnarök. Kratos must dec_ide whether he will be chained by the fear of repeating his mistakes or break free of his past to be the father Atreus needs.",
+            "imageURL": "/gamedata/gameimgs/god of war.png",
+            "releaseDate": "November 9, 2022" 
+        },
+        {
+            "_id": "14",
+            "gameTitle": "Ghostwire: Tokyo",
+            "description": "Explore a unique vision of Tokyo twisted by a supernatural presence. From its ultra-modern cityscape to its traditional temples and narrow alleyways, discover a hauntingly beautiful city teeming with Yokai - vengeful spirits that prowl the streets.",
+            "imageURL": "/gamedata/gameimgs/ghostwire.png",
+            "releaseDate": "March 25, 2022" 
+        },
+        {
+            "_id": "15",
+            "gameTitle": "Stray",
+            "description": "What is Stray? Lost, injured and alone, a stray cat must untangle an ancient mystery to escape a long-forgotten city. Stray is a third-person cat adventure game set am_idst the detailed neon-lit alleys of a decaying cybercity and the murky environments of its seedy underbelly.",
+            "imageURL": "/gamedata/gameimgs/stray.png",
+            "releaseDate": "July 19, 2022" 
+        },
+        {
+            "_id": "16",
+            "gameTitle": "Lego Star Wars: The Skywalker Saga",
+            "description": "Explore the Trilogies in Any Order. Players will relive the epic story of all nine films in the Skywalker Saga, and it all starts with picking the trilogy of their choice to begin the journey. Play as Iconic Heroes and Villains –More than 300 playable characters from throughout the galaxy.",
+            "imageURL": "/gamedata/gameimgs/star wars.png",
+            "releaseDate": "April 5, 2022" 
+        },
+        {
+            "_id": "17",
+            "gameTitle": "Dune: Spice Wars",
+            "description": "Dune: Spice Wars is a 4X real-time strategy game set on the desert planet of Arrakis. Certain tiles have resources like spice and minerals, and unique tiles such as the polar ice caps can produce large amounts of water for the player.",
+            "imageURL": "/gamedata/gameimgs/dune.png",
+            "releaseDate": "April 26, 2022" 
+        },
+        {
+            "_id": "18",
+            "gameTitle": "The Stanley Parable: Ultra Deluxe",
+            "description": "It is an expanded re-imagining of the critically acclaimed, award winning indie game The Stanley Parable from 2013. When a simple-minded indiv_idual named Stanley discovers that the co-workers in his office have mysteriously vanished, he sets off to find answers.",
+            "imageURL": "/gamedata/gameimgs/stanley.png",
+            "releaseDate": "April 27, 2022" 
+        },
+        {
+            "_id": "19",
+            "gameTitle": "Rogue Legacy 2",
+            "description": "Rogue Legacy 2 is a genealogical rogue-LITE. That means it has all the trappings of a typical rogue-like (randomized runs, changing characters, and more), but with persistent upgrades, and persistent dead heirs. In this game, your legacy defines you.",
+            "imageURL": "/gamedata/gameimgs/rogue.png",
+            "releaseDate": "August 18, 2020" 
+        },
+        {
+            "_id": "20",
+            "gameTitle": "Evil Dead: The Game",
+            "description": "Evil Dead: The Game is a 2022 survival horror game based on the Evil Dead franchise. It was developed and published by Saber Interactive. It features co-operative gameplay and player versus player (PvP) combat.",
+            "imageURL": "/gamedata/gameimgs/evil dead.png",
+            "releaseDate": "May 13, 2022 " 
+        }
