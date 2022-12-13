@@ -1,8 +1,10 @@
-const router = require('express').Router()
-const db = require('../models')
+const express = require('express')
+const videogames = express.Router()
+const Videogame = require('../models/videogame')
+const mongoose = require('mongoose')
 
 // get to view a specific game
-router.get('/', (req, res) => {
+videogames.get('/', (req, res) => {
     db.Videogame.find()
         .then((videogame) => {
             res.render('videogame/index', { videogame })
@@ -14,7 +16,7 @@ router.get('/', (req, res) => {
 })
 
 //post to add a new video game
-router.post('/', (req, res) => {
+videogames.post('/', (req, res) => {
     if (req.body.pic === '') { req.body.pic = undefined}
     if (req.body.gameTitle === '') { req.body.gameTitle = undefined }
     db.Videogame.create(req.body)
@@ -35,11 +37,11 @@ router.post('/', (req, res) => {
         })
 })
 
-router.get('/new', (req, res) => {
+videogames.get('/new', (req, res) => {
     res.render('videogames/new')
 })
 
-router.put('/:id', (req, res) => {
+videogames.put('/:id', (req, res) => {
     db.Videogame.findByIdAndUpdate(req.params.id, req.body)
         .then(() => {
             res.redirect(`/videogames/${req.params.id}`)
@@ -50,14 +52,14 @@ router.put('/:id', (req, res) => {
         })
 })
 
-router.delete('/:id', (req, res) => {
+videogames.delete('/:id', (req, res) => {
     db.Videogame.findByIdAndDelete(req.params.id)
         .then(() => {
             res.redirect('/videogames')
         })
 })
 
-router.get('/:id/edit', (req, res) => {
+videogames.get('/:id/edit', (req, res) => {
     db.Videogame.findById(req.params.id)
         .then(videogame => {
             res.render('vidgeogames/edit', { videogame })
@@ -67,7 +69,7 @@ router.get('/:id/edit', (req, res) => {
         })
 })
 
-router.post('/:id/review', (req, res) => {
+videogames.post('/:id/review', (req, res) => {
     console.log('post review', req.body)
     if (req.body.author === '') { req.body.author = undefined }
     db.Videogame.findById(req.params.id)
@@ -92,7 +94,7 @@ router.post('/:id/review', (req, res) => {
         })
 })
 
-router.delete('/:id/review/:reviewId', (req, res) => {
+videogames.delete('/:id/review/:reviewId', (req, res) => {
     db.Review.findByIdAndDelete(req.params.reviewId)
         .then(() => {
             console.log('Success')
@@ -104,4 +106,4 @@ router.delete('/:id/review/:reviewId', (req, res) => {
         })
 })
 
-module.exports = router
+module.exports = videogames
