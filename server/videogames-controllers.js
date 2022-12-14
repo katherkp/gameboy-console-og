@@ -1,9 +1,9 @@
 const express = require('express')
 const videogames = express.Router()
-const Videogame = require('../models/videogame')
+const Videogame = require('../src/models/videogame')
 const mongoose = require('mongoose')
-const review = require('../models')
-const Review = require('../models/review')
+const review = require('../src/models')
+const Review = require('../src/models/review')
 
 // get to view a specific game
 videogames.get('/', async (req, res) => {

@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const { Schema } = mongoose
 
 const videogameSchema = new mongoose.Schema({
     _id: { type: Number, required: true },
@@ -9,5 +8,4 @@ const videogameSchema = new mongoose.Schema({
     releaseDate: { type: String, default: 'N/A' }, reviews: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Review' }]
 })
 
-const Videogame = mongoose.model('Videogame', videogameSchema)
 module.exports = mongoose.model('Videogame', videogameSchema)

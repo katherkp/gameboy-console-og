@@ -1,20 +1,15 @@
 require('dotenv').config()
-const express = require('express')
-const app = express()
+const mongoose = require('mongoose')
+var videogame = mongoose.connection
+const connection = 'mongodb+srv://cluster20248.ozueumb.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority'
 
-app.set('view engine', 'jsx')
-app.engine('jsx', require('express').createEngine())
-app.use(express.static('public'))
-app.use(express.urlencoded({ extended: true }))
+mongoose
+    .connect(connection, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+    })
+    .then(() => console.log('Database connected successfully!'))
+    .catch((err) => console.log(err));
 
-app.use('/videogames', require('./videogames-controllers'))
-
-app.get('/', (req, res) => {
-    res.render('home')
-})
-
-app.get('*', (req, res) => {
-    res.render('error404')
-})
-
-app.listen(process.env.PORT)
+module.exports.Videogame = require('./models/videogame')
+module.exports.Review = require('./models/review')
